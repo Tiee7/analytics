@@ -136,6 +136,12 @@
       disabled:text-gray-900/40 dark:disabled:text-white/30
       disabled:cursor-not-allowed;
 
+    /* iOS Safari zooms focused text fields below 16px, including readonly
+       textareas. Keep text entry readable without changing select controls. */
+    &:is(input, textarea) {
+      @apply text-base;
+    }
+
     /* The mini chevron of the button triggers. A background image cannot read
        a colour token, so gray-500 and gray-400 are hardcoded */
     &:is(select:not([multiple])) {

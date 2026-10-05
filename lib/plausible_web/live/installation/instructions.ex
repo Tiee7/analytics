@@ -152,7 +152,7 @@ defmodule PlausibleWeb.Live.Installation.Instructions do
         name="snippet"
         rows={@rows}
         readonly
-        class="block w-full resize-none border-0 bg-transparent px-3 py-3 text-[0.8rem] leading-4.5 font-mono text-gray-800 dark:text-gray-300 selection:bg-gray-200/80 dark:selection:bg-gray-700 focus:outline-none focus:ring-0"
+        class="block w-full resize-none border-0 bg-transparent px-3 py-3 text-base leading-4.5 font-mono text-gray-800 dark:text-gray-300 selection:bg-gray-200/80 dark:selection:bg-gray-700 focus:outline-none focus:ring-0"
       ><%= @text %></textarea>
 
       <.button

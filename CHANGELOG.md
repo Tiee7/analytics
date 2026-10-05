@@ -47,6 +47,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+- Keep text inputs and textareas at 16px to prevent Mobile Safari zooming on focus
 - Fixed "Create Team" going through when the team name was rejected, creating the team under a name the user never entered
 - Improve team member removal/team role change
 - Validate empty filter clauses list in Stats API v2
